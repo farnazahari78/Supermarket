@@ -10,10 +10,10 @@ public class ProductQuantity {
     }
 
     public Product getProduct() {
-        return product;
+        return this.product;
     }
 
     public double getQuantity() {
-        return quantity;
+        return this.quantity;
     }
 }

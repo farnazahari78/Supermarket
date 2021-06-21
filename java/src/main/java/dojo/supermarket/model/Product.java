@@ -12,7 +12,7 @@ public class Product {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
 
@@ -26,7 +26,7 @@ public class Product {
         if (o == null || getClass() != o.getClass()) return false;
         Product product = (Product) o;
         return Objects.equals(name, product.name) &&
-                unit == product.unit;
+                this.unit == product.unit;
     }
 
     @Override

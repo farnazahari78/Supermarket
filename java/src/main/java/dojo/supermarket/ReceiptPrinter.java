@@ -8,12 +8,9 @@ public class ReceiptPrinter {
 
     private final int columns;
 
-    public ReceiptPrinter() {
-        this(40);
-    }
 
-    public ReceiptPrinter(int columns) {
-        this.columns = columns;
+    public ReceiptPrinter() {
+        this.columns = 40;
     }
 
     public String printReceipt(Receipt receipt) {

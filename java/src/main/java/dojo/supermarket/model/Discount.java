@@ -12,15 +12,15 @@ public class Discount {
     }
 
     public String getDescription() {
-        return description;
+        return this.description;
     }
 
     public double getDiscountAmount() {
-        return discountAmount;
+        return this.discountAmount;
     }
 
     public Product getProduct() {
-        return product;
+        return this.product;
     }
 
 }
