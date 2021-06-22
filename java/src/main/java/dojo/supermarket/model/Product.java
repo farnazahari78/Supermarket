@@ -17,7 +17,7 @@ public class Product {
 
 
     public ProductUnit getUnit() {
-        return unit;
+        return this.unit;
     }
 
     @Override

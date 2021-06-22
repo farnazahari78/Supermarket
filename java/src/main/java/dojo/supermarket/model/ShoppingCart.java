@@ -20,7 +20,7 @@ public class ShoppingCart {
     }
 
     Map<Product, Double> productQuantities() {
-        return productQuantities;
+        return this.productQuantities;
     }
 
 
